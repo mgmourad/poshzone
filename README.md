@@ -17,13 +17,12 @@ This repository contains a collection of PowerShell scripts designed to assist w
 **Example Usage**:
 
 ```powershell
-
 Get-AppDeploymentErrorInfo -AppName 'Google Chrome' -HostName DEVICE1
 ```
 
 ---
 
-### 2. Get-AppDeploymentInfo.ps1
+### 2. `Get-AppDeploymentInfo.ps1`
 
 **Purpose**: Collects information about application deployments, including their status and enforcement states.
 
@@ -35,14 +34,12 @@ Get-AppDeploymentErrorInfo -AppName 'Google Chrome' -HostName DEVICE1
 - Example Usage:
 
 ```powershell
-
   Get-AppDeploymentInfo -CollectionID XYZ00123 -Status Error
-
 ```
 
 ---
 
-### 3. Get-BIOSInfo.ps1
+### 3. `Get-BIOSInfo.ps1`
 
 Purpose: Retrieves BIOS information for systems based on various filtering criteria.
 
@@ -55,14 +52,12 @@ Purpose: Retrieves BIOS information for systems based on various filtering crite
 **Example Usage**:
 
 ```powershell
-
 Get-BIOSInfo -HostName DEVICE1
-
 ```
 
 ---
 
-### 4. Get-DeviceSpecs.ps1
+### 4. `Get-DeviceSpecs.ps1`
 
 **Purpose**: Retrieves detailed hardware specifications for devices, including CPU, RAM, storage, GPU, and network adapters.
 
