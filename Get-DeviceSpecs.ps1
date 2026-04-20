@@ -96,7 +96,7 @@ function Get-DeviceSpecs {
         .PARAMETER EXPORTCSV
         Use EXPORTCSV parameter to export results in a .CSV file. PATH parameter must be used to specify the destination of the export.
         .EXAMPLE
-        Get-NTTADeviceSpecs -collectionID PGE00616
+        Get-DeviceSpecs -collectionID PGE00616
 
         [46] DEVICES FOUND IN THIS COLLECTION...
         DISPLAYING SPECS OF....[1/46] MACHINES
