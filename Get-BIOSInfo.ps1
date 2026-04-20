@@ -6,7 +6,7 @@ function Get-BIOSInfo
         Retrieves BIOS information from a system based on different filtering criteria.
 
     .DESCRIPTION
-        The `Get-NTTABIOSInfo` function queries the WMI database to retrieve BIOS information, such as BIOS version, model, hostname, and username. It supports filtering the results based on various parameters, including host name, model, BIOS version, username, or resource ID. This function is helpful for system administrators who need to gather BIOS data across multiple systems in a network.
+        The `Get-BIOSInfo` function queries the WMI database to retrieve BIOS information, such as BIOS version, model, hostname, and username. It supports filtering the results based on various parameters, including host name, model, BIOS version, username, or resource ID. This function is helpful for system administrators who need to gather BIOS data across multiple systems in a network.
 
     .PARAMETER HostName
         The hostname of the computer system to query. The function filters results based on the exact match of the hostname.
@@ -38,7 +38,7 @@ function Get-BIOSInfo
         ResourceID  : 16798401
 
     .EXAMPLE
-        Get-NTTABIOSInfo -Model 'XPS 15 9575'
+        Get-BIOSInfo -Model 'XPS 15 9575'
 
         HostName  BIOSVersion Model       UserName       ResourceID
         --------  ----------- -----       --------       ----------
